@@ -55,6 +55,7 @@ function Header() {
         </div>
       </header>
       <Routes>
+        <Route path='/rmg_live'  element={<Home />} />
         <Route path="/" element={<Home />} />
         <Route path="/project" element={<Project />} />
         <Route path="/our-team" element={<OurTeam />} />
